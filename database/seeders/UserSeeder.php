@@ -16,7 +16,6 @@ class UserSeeder extends Seeder
 	{
 	    User::factory()
 	            ->times(50)
-	            ->hasPosts(1)
 	            ->create();
 	}
 }
